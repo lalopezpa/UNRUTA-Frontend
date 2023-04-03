@@ -1,7 +1,7 @@
 <template>
-    <div class="p-10 bg-white absolute h-full w-full top-0 left-0 flex items-center justify-center bg-blue-100">
+    <div class="p-10 fondo absolute h-full w-full top-0 left-0 flex items-center justify-center">
 
-        <div class="fondo shadow-lg overflow-hidden rounded-lg w-[100%] h-[100%]">
+        <div class="fondo lg overflow-hidden rounded-lg w-[100%] h-[100%]">
             <div class="flex space-between items-center">
                 <div class="image-container w-[50%] ">
 
@@ -45,7 +45,7 @@
                     <br>
                     <div class="text-center font-bold text-white">
                         <p> ¿No tienes una cuenta?
-                            <a href="#" class="text-red-100 hover:text-red-500">
+                            <a href="register" class="text-red-100 hover:text-red-500">
                                 <b>REGISTRATE</b>
 
                             </a>
